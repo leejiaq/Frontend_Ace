@@ -44,14 +44,22 @@ A lightweight Next.js-based IDE for editing MicroPython projects and deploying t
 - OTA upload endpoint to ESP32
 - iPad-friendly UI (no animations, no layout shift)
 
+## Installation
+```bash
+pip install mpy-cross
+npm install
+```
+or
+```bash
+pip install mpy-cross
+pnpm install mpy-cross
+```
 ## Development
 ```bash
-npm install
 npm run dev
 ```
 or
 ```bash
-pnpm install
 pnpm dev
 ```
 
@@ -71,5 +79,3 @@ pnpm build && pnpm start
 `GET /api/status` → ping device
 
 `POST /api/reboot` → reboot device
-
-## Project 
